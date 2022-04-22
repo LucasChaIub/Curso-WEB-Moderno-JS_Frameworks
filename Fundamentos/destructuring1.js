@@ -7,7 +7,7 @@ const pessoa = {
     }
 };
 
-const { nome, idade }= pessoa;
+const { nome, idade } = pessoa;
 console.log(nome, idade);
 
 const { endereco: { logradouro, numero, cep } } = pessoa;
